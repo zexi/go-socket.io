@@ -3,7 +3,7 @@ package socketio
 import (
 	"log"
 
-	"github.com/googollee/go-socket.io/parser"
+	"github.com/googollee/go-socket.io/v2/parser"
 )
 
 var readHandlerMapping = map[parser.Type]readHandler{

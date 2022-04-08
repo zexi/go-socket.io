@@ -9,8 +9,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/googollee/go-socket.io/engineio/frame"
-	"github.com/googollee/go-socket.io/engineio/transport"
+	"github.com/googollee/go-socket.io/v2/engineio/frame"
+	"github.com/googollee/go-socket.io/v2/engineio/transport"
 )
 
 type wrapper struct {

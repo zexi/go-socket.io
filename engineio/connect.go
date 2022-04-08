@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/googollee/go-socket.io/engineio/session"
+	"github.com/googollee/go-socket.io/v2/engineio/session"
 )
 
 // Conn is connection by client session

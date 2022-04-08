@@ -9,8 +9,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/googollee/go-socket.io/engineio/packet"
-	"github.com/googollee/go-socket.io/engineio/transport"
+	"github.com/googollee/go-socket.io/v2/engineio/packet"
+	"github.com/googollee/go-socket.io/v2/engineio/transport"
 )
 
 // conn implements base.Conn

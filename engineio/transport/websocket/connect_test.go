@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"github.com/googollee/go-socket.io/engineio/transport"
+	"github.com/googollee/go-socket.io/v2/engineio/transport"
 	"net"
 	"net/http"
 	"net/http/httptest"

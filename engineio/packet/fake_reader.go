@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/googollee/go-socket.io/engineio/frame"
+	"github.com/googollee/go-socket.io/v2/engineio/frame"
 )
 
 type fakeConnReader struct {

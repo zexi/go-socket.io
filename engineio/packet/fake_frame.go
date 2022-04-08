@@ -3,7 +3,7 @@ package packet
 import (
 	"bytes"
 
-	"github.com/googollee/go-socket.io/engineio/frame"
+	"github.com/googollee/go-socket.io/v2/engineio/frame"
 )
 
 type fakeFrame struct {

@@ -1,4 +1,4 @@
-module github.com/googollee/go-socket.io
+module github.com/googollee/go-socket.io/v2
 
 go 1.16
 

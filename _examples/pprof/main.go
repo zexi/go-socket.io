@@ -6,11 +6,11 @@ import (
 	"net/http/pprof"
 	_ "net/http/pprof"
 
-	socketio "github.com/googollee/go-socket.io"
-	"github.com/googollee/go-socket.io/engineio"
-	"github.com/googollee/go-socket.io/engineio/transport"
-	"github.com/googollee/go-socket.io/engineio/transport/polling"
-	"github.com/googollee/go-socket.io/engineio/transport/websocket"
+	socketio "github.com/googollee/go-socket.io/v2"
+	"github.com/googollee/go-socket.io/v2/engineio"
+	"github.com/googollee/go-socket.io/v2/engineio/transport"
+	"github.com/googollee/go-socket.io/v2/engineio/transport/polling"
+	"github.com/googollee/go-socket.io/v2/engineio/transport/websocket"
 )
 
 var allowOriginFunc = func(r *http.Request) bool {
